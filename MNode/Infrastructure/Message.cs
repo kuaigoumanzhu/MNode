@@ -36,7 +36,7 @@ namespace MNode.Infrastructure
         /// Returns null by default.
         /// </summary>
         /// <returns></returns>
-        public string GetRoutingKey()
+        public virtual string GetRoutingKey()
         {
             return null;
         }

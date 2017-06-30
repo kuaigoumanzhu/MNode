@@ -56,8 +56,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Infrastructure\IApplicationMessage.cs" />
+    <Compile Include="Infrastructure\IAssemblyInitializer.cs" />
+    <Compile Include="Infrastructure\ILockService.cs" />
     <Compile Include="Infrastructure\IMessage.cs" />
+    <Compile Include="Infrastructure\IMessageDispatcher.cs" />
+    <Compile Include="Infrastructure\IMessageHandler.cs" />
+    <Compile Include="Infrastructure\IMessageHandlerProvider.cs" />
+    <Compile Include="Infrastructure\IMessageHandlerProxy.cs" />
+    <Compile Include="Infrastructure\IObjectProxy.cs" />
     <Compile Include="Infrastructure\Message.cs" />
+    <Compile Include="Infrastructure\MessageHandlerData.cs" />
+    <Compile Include="Infrastructure\MessageHandleRecord.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
